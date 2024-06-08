@@ -74,12 +74,12 @@ class Clients(Frame):
         self.en_date.insert(0, str(self.date))
         self.en_date.place(x=503, y=470, width=150, height=25)
 
-        self.button_image_1 = ImageTk.PhotoImage(Image.open("gus_2.png"))
+        self.button_image_1 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/gus_2.png"))
         button_1 = Button(self, image=self.button_image_1, borderwidth=0, highlightthickness=0, command=self.submit,
                           relief="flat", cursor='hand2')
         button_1.place(x=465.0, y=535.0, width=190.0, height=48.0)
 
-        self.button_image_2 = ImageTk.PhotoImage(Image.open("gus_3.png"))
+        self.button_image_2 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/gus_3.png"))
         button_2 = Button(self, image=self.button_image_2, borderwidth=0, highlightthickness=0, command=self.clear,
                           relief="flat", cursor='hand2')
         button_2.place(x=690.0, y=535.0, width=190.0, height=48.0)
@@ -88,22 +88,22 @@ class Clients(Frame):
                         labelanchor='n')
         f2.place(x=40, y=240, width=340, height=340)
 
-        self.button_image_3 = ImageTk.PhotoImage(Image.open("add_gus.png"))
+        self.button_image_3 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/add_gus.png"))
         button_3 = Button(f2, image=self.button_image_3, borderwidth=0, highlightthickness=0, command=AddClient,
                           relief="flat", cursor='hand2')
         button_3.place(x=67.0, y=30.0, width=190.0, height=48.0)
         
-        self.button_image_0 = ImageTk.PhotoImage(Image.open("gus_4.png"))
+        self.button_image_0 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/gus_4.png"))
         button_0 = Button(f2, image=self.button_image_0, borderwidth=0, highlightthickness=0, command=EditDel,
                           relief="flat", cursor='hand2')
         button_0.place(x=67.0, y=90.0, width=190.0, height=48.0)
 
-        self.button_image_4 = ImageTk.PhotoImage(Image.open("gus_1.png"))
+        self.button_image_4 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/gus_1.png"))
         button_4 = Button(f2, image=self.button_image_4, borderwidth=0, highlightthickness=0, command=AddPayment,
                           relief="flat", cursor='hand2')
         button_4.place(x=67.0, y=150.0, width=190.0, height=48.0)
 
-        self.button_image_5 = ImageTk.PhotoImage(Image.open("view_gus.png"))
+        self.button_image_5 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/view_gus.png"))
         button_5 = Button(f2, image=self.button_image_5, borderwidth=0, highlightthickness=0, command=Review,
                           relief="flat", cursor='hand2')
         button_5.place(x=67.0, y=210.0, width=190.0, height=48.0)

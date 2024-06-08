@@ -62,7 +62,7 @@ class MainWindow(Toplevel):
 
         self.sidebar_indicator.place(x=0, y=133, height=47, width=7)
 
-        button_image_1 = ImageTk.PhotoImage(Image.open("button_1.png"))
+        button_image_1 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_1.png"))
         self.home_btn = Button(
             self.canvas,
             image=button_image_1,
@@ -74,7 +74,7 @@ class MainWindow(Toplevel):
         )
         self.home_btn.place(x=7.0, y=133.0, width=208.0, height=47.0)
 
-        button_image_2 = ImageTk.PhotoImage(Image.open("button_2.png"))
+        button_image_2 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_2.png"))
         self.mater_btn = Button(
             self.canvas,
             image=button_image_2,
@@ -86,7 +86,7 @@ class MainWindow(Toplevel):
         )
         self.mater_btn.place(x=7.0, y=183.0, width=208.0, height=47.0)
 
-        button_image_3 = ImageTk.PhotoImage(Image.open("button_3.png"))
+        button_image_3 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_3.png"))
         self.guests_btn = Button(
             self.canvas,
             image=button_image_3,
@@ -98,7 +98,7 @@ class MainWindow(Toplevel):
         )
         self.guests_btn.place(x=7.0, y=283.0, width=208.0, height=47.0)
 
-        button_image_4 = ImageTk.PhotoImage(Image.open("button_4.png"))
+        button_image_4 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_4.png"))
         self.color_btn = Button(
             self.canvas,
             image=button_image_4,
@@ -110,7 +110,7 @@ class MainWindow(Toplevel):
         )
         self.color_btn.place(x=7.0, y=433.0, width=208.0, height=47.0)
 
-        button_image_5 = ImageTk.PhotoImage(Image.open("button_5.png"))
+        button_image_5 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_5.png"))
         self.logout_btn = Button(
             self.canvas,
             image=button_image_5,
@@ -121,7 +121,7 @@ class MainWindow(Toplevel):
         )
         self.logout_btn.place(x=0.0, y=601.0, width=215.0, height=47.0)
 
-        button_image_6 = ImageTk.PhotoImage(Image.open("button_6.png"))
+        button_image_6 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_6.png"))
         self.checks_btn = Button(
             self.canvas,
             image=button_image_6,
@@ -133,7 +133,7 @@ class MainWindow(Toplevel):
         )
         self.checks_btn.place(x=7.0, y=233.0, width=208.0, height=47.0)
 
-        button_image_7 = ImageTk.PhotoImage(Image.open("button_7.png"))
+        button_image_7 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_7.png"))
         self.records_btn = Button(
             self.canvas,
             image=button_image_7,
@@ -145,7 +145,7 @@ class MainWindow(Toplevel):
         )
         self.records_btn.place(x=7.0, y=333.0, width=208.0, height=47.0)
 
-        button_image_8 = ImageTk.PhotoImage(Image.open("button_8.png"))
+        button_image_8 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_8.png"))
         self.expense_btn = Button(
             self.canvas,
             image=button_image_8,

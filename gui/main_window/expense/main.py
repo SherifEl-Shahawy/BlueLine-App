@@ -60,7 +60,7 @@ class Expenses(Frame):
         self.f_date.insert(0, str(self.date))
         self.f_date.place(x=25, y=110, width=150, height=25)
 
-        self.button_image_1 = ImageTk.PhotoImage(Image.open("exp_reg.png"))
+        self.button_image_1 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/exp_reg.png"))
         button_1 = Button(f1, image=self.button_image_1, borderwidth=0, highlightthickness=0,
                           relief="flat", cursor='hand2', command=self.fix_btn)
         button_1.place(x=67.0, y=160.0, width=190.0, height=48.0)
@@ -85,7 +85,7 @@ class Expenses(Frame):
         self.v_date.insert(0, str(self.date))
         self.v_date.place(x=25, y=110, width=150, height=25)
 
-        self.button_image_2 = ImageTk.PhotoImage(Image.open("exp_reg.png"))
+        self.button_image_2 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/exp_reg.png"))
         button_2 = Button(f2, image=self.button_image_2, borderwidth=0, highlightthickness=0,
                           relief="flat", cursor='hand2', command=self.var_btn)
         button_2.place(x=67.0, y=160.0, width=190.0, height=48.0)
@@ -110,7 +110,7 @@ class Expenses(Frame):
         self.s_date.insert(0, str(self.date))
         self.s_date.place(x=25, y=110, width=150, height=25)
 
-        self.button_image_3 = ImageTk.PhotoImage(Image.open("exp_reg.png"))
+        self.button_image_3 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/exp_reg.png"))
         button_3 = Button(f3, image=self.button_image_3, borderwidth=0, highlightthickness=0,
                           relief="flat", cursor='hand2', command=self.salary_btn)
         button_3.place(x=67.0, y=160.0, width=190.0, height=48.0)
@@ -119,12 +119,12 @@ class Expenses(Frame):
                         labelanchor='n')
         f4.place(x=80, y=380, width=360, height=200)
 
-        self.button_image_4 = ImageTk.PhotoImage(Image.open("total_exp.png"))
+        self.button_image_4 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/total_exp.png"))
         button_4 = Button(f4, image=self.button_image_4, borderwidth=0, highlightthickness=0,
                           relief="flat", cursor='hand2', command=TotalExpenses)
         button_4.place(x=67.0, y=20.0, width=190.0, height=48.0)
 
-        self.button_image_5 = ImageTk.PhotoImage(Image.open("salary_exp.png"))
+        self.button_image_5 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/salary_exp.png"))
         button_5 = Button(f4, image=self.button_image_5, borderwidth=0, highlightthickness=0,
                           relief="flat", cursor='hand2', command=Salary)
         button_5.place(x=67.0, y=90.0, width=190.0, height=48.0)

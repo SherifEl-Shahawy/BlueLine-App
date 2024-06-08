@@ -92,12 +92,12 @@ class Colors(Frame):
                         labelanchor='n')
         f2.place(x=40, y=240, width=340, height=220)
 
-        self.button_image_3 = ImageTk.PhotoImage(Image.open("col_1.png"))
+        self.button_image_3 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/col_1.png"))
         button_3 = Button(f2, image=self.button_image_3, borderwidth=0, highlightthickness=0, command=AddColor,
                           relief="flat", cursor='hand2')
         button_3.place(x=67.0, y=30.0, width=190.0, height=48.0)
 
-        self.button_image_5 = ImageTk.PhotoImage(Image.open("col_3.png"))
+        self.button_image_5 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/col_3.png"))
         button_5 = Button(f2, image=self.button_image_5, borderwidth=0, highlightthickness=0, command=Delete,
                           relief="flat", cursor='hand2')
         button_5.place(x=67.0, y=100.0, width=190.0, height=48.0)

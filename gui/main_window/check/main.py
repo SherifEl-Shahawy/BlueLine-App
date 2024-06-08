@@ -68,12 +68,12 @@ class Checks(Frame):
                                 textvariable=self.data_n['deti'])
         self.en_details.place(x=170, y=170, width=450, height=40)
 
-        self.button_image_1 = ImageTk.PhotoImage(Image.open("chk_del.png"))
+        self.button_image_1 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/chk_del.png"))
         button_1 = Button(self, image=self.button_image_1, borderwidth=0, highlightthickness=0, command=DelCheck,
                           relief="flat", cursor='hand2')
         button_1.place(x=250.0, y=220.0, width=190.0, height=48.0)
 
-        self.button_image_2 = ImageTk.PhotoImage(Image.open("check_dn.png"))
+        self.button_image_2 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/check_dn.png"))
         button_2 = Button(self, image=self.button_image_2, borderwidth=0, highlightthickness=0, command=self.submit,
                           relief="flat", cursor='hand2')
         button_2.place(x=550.0, y=220.0, width=190.0, height=48.0)
