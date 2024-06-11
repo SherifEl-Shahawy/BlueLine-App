@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from tkinter import Frame, Canvas, Entry, Text, Button, PhotoImage, messagebox
+from tkinter import Frame, Canvas, PhotoImage
 from controller import *
 
 OUTPUT_PATH = Path(__file__).parent

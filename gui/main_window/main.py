@@ -4,7 +4,6 @@ from tkinter import (
     Frame,
     Canvas,
     Button,
-    PhotoImage,
     messagebox,
     StringVar)
 
@@ -48,7 +47,7 @@ class MainWindow(Toplevel):
             width=1250,
             bd=0,
             highlightthickness=0,
-            relief="ridge",
+            relief="ridge"
         )
 
         self.canvas.place(x=0, y=0)
@@ -62,6 +61,7 @@ class MainWindow(Toplevel):
 
         self.sidebar_indicator.place(x=0, y=133, height=47, width=7)
 
+        # add buttons
         button_image_1 = ImageTk.PhotoImage(Image.open("gui/main_window/assets/button_1.png"))
         self.home_btn = Button(
             self.canvas,
@@ -157,6 +157,7 @@ class MainWindow(Toplevel):
         )
         self.expense_btn.place(x=7.0, y=383.0, width=208.0, height=47.0)
 
+        # left Canvas of Button selection
         self.heading = self.canvas.create_text(
             305.0,
             33.0,
@@ -248,22 +249,3 @@ class MainWindow(Toplevel):
 
     def handle_dashboard_refresh(self):
         pass
-
-
-'''db = sqlite3.connect('Materials.db')
-db.cursor()
-db.execute('INSERT INTO Color_T VALUES (:Name, :T_N)',
-                   {
-                       'Name': 'كاشمير',
-                       'T_N': 'M_9x'
-                   })
-db.commit()'''
-
-
-'''db = sqlite3.connect('Materials.db')
-db.cursor()
-db.execute(
-    "CREATE TABLE Color_T (Name TEXT, T_N TEXT)")
-
-db.commit()
-db.close()'''
